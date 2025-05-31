@@ -35,3 +35,40 @@ li {
     list-style-type: none;
 }
 
+.header {
+    background-color: var(--dark-bg-clr);
+    padding: 8px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    color: var(--second-clr);
+    font-size: 18px;
+    padding: 30px 0px;
+    display: inline-block;
+}
+
+.navbar li a:hover,
+.navbar li a.active  {
+    border-bottom: 3px solid var(--second-clr);
+}
+
+
+
