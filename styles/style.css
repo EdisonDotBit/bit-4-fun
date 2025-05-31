@@ -41,7 +41,7 @@ li {
 /* header */
 .header {
     background-color: var(--dark-bg-clr);
-    padding: 8px 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +81,55 @@ li {
 
 /* hero */
 .hero {
+    min-height: 600px;
+    width: 100%;
+    background-color: var(--dark-bg-clr);
+    padding: 6px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 
+.introduction,
+.hero-img {
+    flex: 1 1 400px;
+}
+
+.introduction {
+    text-align: justify;
+}
+
+.introduction h1 {
+    font-size: 48px;
+    color: var(--main-clr);
+    font-weight: 900;
+    margin-bottom: 10px;
+}   
+
+.introduction p {
+    font-size: 18px; 
+    color: var(--second-clr);
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 750px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.hero-btn {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: var(--btn-clr);
+    color: var(--main-clr);
+    font-weight: 900;
 }
 
 /* footer */
