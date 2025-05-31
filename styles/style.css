@@ -119,17 +119,17 @@ li {
 }
 
 button {
-    padding: 10px 20px;
     border-radius: 8px;
     border: 0px;
 }
 
 .hero-btn {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
     background-color: var(--btn-clr);
     color: var(--main-clr);
     font-weight: 900;
+    padding: 10px 40px;
 }
 
 /* features */
@@ -193,6 +193,48 @@ button {
     margin-left: auto;
     font-size: 24px;
     font-weight: 500;
+}
+
+.action {
+    background-color: #FFFF;
+    min-height: 400px;
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1300px;
+    background-color: var(--btn-clr);
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+
+.call h3 {
+     color: var(--main-clr);
+     font-size: 24px;
+     margin-bottom: 6px;
+}
+
+.call p {
+    font-size: 20px;
+    color: var(--second-clr);
+}
+
+.action-btn {
+    background-color: var(--btn-clr);
+    color: var(--main-clr);
+    font-weight: 900;
+    padding: 10px 40px;
+    border: 2px solid var(--main-clr);
+    font-size: 18px;
 }
 
 
