@@ -132,6 +132,7 @@ button {
     font-weight: 900;
 }
 
+/* features */
 .features {
     min-height: 500px;
     width: 100%;
@@ -167,8 +168,37 @@ button {
     font-size: 20px;
 }
 
+/* testimony */
+.testimony {
+    width: 100%;
+    min-height: 500px;
+    background-color: var(--second-clr);
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    color: var(--info-h-txt);
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.author {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
 /* footer */
 .footer {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
