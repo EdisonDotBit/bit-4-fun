@@ -23,6 +23,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
   height: 100vh;
 }
@@ -35,6 +37,8 @@ li {
     list-style-type: none;
 }
 
+
+/* header */
 .header {
     background-color: var(--dark-bg-clr);
     padding: 8px 100px;
@@ -70,5 +74,23 @@ li {
     border-bottom: 3px solid var(--second-clr);
 }
 
+/* main */
+.main {
+    flex: 1;
+}
 
+/* hero */
+.hero {
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-bg-clr);
+    color: var(--second-clr);
+    padding: 16px 8px;
+}
 
