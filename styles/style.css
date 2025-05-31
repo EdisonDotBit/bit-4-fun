@@ -84,7 +84,7 @@ li {
     min-height: 600px;
     width: 100%;
     background-color: var(--dark-bg-clr);
-    padding: 6px 100px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,6 +132,41 @@ button {
     font-weight: 900;
 }
 
+.features {
+    min-height: 500px;
+    width: 100%;
+    padding: 30px 100px;
+    text-align: center;
+    background-color: #FFFF;
+}
+
+.features h2 {
+    font-size: 36px;
+    color: var(--info-h-txt);
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 300px;
+    height: auto;
+    border: 6px solid var(--btn-clr);
+    border-radius: 8px;
+}
+
+.card .text {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
 /* footer */
 .footer {
     display: flex;
@@ -141,4 +176,5 @@ button {
     color: var(--second-clr);
     padding: 16px 8px;
 }
+
 
